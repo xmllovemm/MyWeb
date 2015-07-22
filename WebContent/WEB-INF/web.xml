@@ -3,12 +3,12 @@
 <web-app>
 	<servlet>
 		<servlet-name>test</servlet-name>
-		<servlet-class></servlet-class>
+		<servlet-class>util.SayHello</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-        <servlet-name>Test</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test/*</url-pattern>
     </servlet-mapping>
     
     <session-config>
