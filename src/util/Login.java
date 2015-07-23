@@ -22,11 +22,11 @@ public class Login extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 		writer.println("<html>");
 		writer.println("<head>");
-		writer.println("<title>µÇÂ¼ĞÅÏ¢</title>");
+		writer.println("<title>æ¬¢è¿</title>");
 		writer.println("</head>");
 		
 		writer.println("<body>");
-		writer.println("»¶Ó­ [" + username + "],µÇÂ¼³É¹¦");
+		writer.println("ä½ å¥½ï¼Œ[" + username + "],æ¬¢è¿å…‰ä¸´ï¼");
 		writer.println("</body>");
 		
 		writer.println("</html>");
